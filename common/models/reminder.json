@@ -1,21 +1,25 @@
 {
-	"name": "user",
-	"plural": "users",
+	"name": "reminder",
+	"plural": "reminders",
 	"base": "PersistedModel",
 	"idInjection": true,
 	"options": {
 		"validateUpsert": true
 	},
 	"properties": {
-		"name": {
+		"title": {
 			"type": "string",
 			"required": true
 		},
-		"lastname": {
+		"city": {
 			"type": "string",
 			"required": true
 		},
-		"email": {
+		"color": {
+			"type": "string",
+			"required": true
+		},
+		"date": {
 			"type": "string",
 			"required": true
 		}
@@ -23,9 +27,5 @@
 	"validations": [],
 	"relations": {},
 	"acls": [],
-	"mixins": {
-		"TimeStamp": {
-			"validateUpsert": true
-		}
-	}
+	"mixins": {}
 }

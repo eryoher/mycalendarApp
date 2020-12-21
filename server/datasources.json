@@ -1,11 +1,11 @@
 {
-  "db": {
-    "host": "localhost",
-    "port": 3306,
-    "database": "todoList_user",
-    "username": "root",
-    "password": "",
-    "name": "db",
-    "connector": "mysql"
-  }
+	"db": {
+		"host": "localhost",
+		"port": 3306,
+		"database": "calendar",
+		"username": "root",
+		"password": "password",
+		"name": "db",
+		"connector": "mysql"
+	}
 }
