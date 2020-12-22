@@ -6,6 +6,7 @@
 		"username": "root",
 		"password": "password",
 		"name": "db",
-		"connector": "mysql"
+		"connector": "mysql",
+		"timezone": "UTC-05:00"
 	}
 }
