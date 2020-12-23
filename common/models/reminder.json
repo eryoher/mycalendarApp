@@ -22,6 +22,14 @@
 		"date": {
 			"type": "string",
 			"required": true
+		},
+		"realDate": {
+			"type": "date",
+			"required": true
+		},
+		"active": {
+			"type": "number",
+			"required": true
 		}
 	},
 	"validations": [],
