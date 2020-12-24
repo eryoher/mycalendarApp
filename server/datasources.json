@@ -1,10 +1,10 @@
 {
 	"db": {
-		"host": "localhost",
+		"host": "us-cdbr-east-02.cleardb.com",
 		"port": 3306,
-		"database": "calendar",
-		"username": "root",
-		"password": "password",
+		"database": "heroku_739176b5287128f",
+		"username": "b7543db52bcbd7",
+		"password": "96181ac9",
 		"name": "db",
 		"connector": "mysql",
 		"timezone": "UTC-05:00"
